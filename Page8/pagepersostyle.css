@@ -31,6 +31,14 @@ body {
     margin-bottom: 15px;
 }
 
+.personame .name {
+    text-align: center;
+}
+
+.personame .Pseudo {
+    text-align: center;
+}
+
 /* Barre de réseaux sociaux */
 
 .socialnetwork {
