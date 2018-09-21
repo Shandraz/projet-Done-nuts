@@ -65,8 +65,8 @@
         </nav>
     </div>
 
-    <header class="container-fluid">
-        <div class="container-fluid">
+    <header class="menusIntegral container-fluid">
+        <div class="d-none d-md-block container-fluid">
 
             <div class="headerMenus">
                 <!-- line 1 grid-menus-anaelle-kevin-->
@@ -78,20 +78,16 @@
                 </div>
                 <!-- line 2 grid-menus-elliot-morgan-->
                 <div class="row justify-content-center">
-                    <div class="elliotMenus"><a href="Page8/persoeliott.html"><audio id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="elliotHeader"
+                    <div class="elliotMenus"><a href="Page8/persoeliott.html"><img class="elliotHeader"
                                 src="header-accueil/elliot.png" alt=""></a></div>
-                    <div class="morganMenus"><a href="Page8/persomorgan.html"><audio id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="morganHeader"
+                    <div class="morganMenus"><a href="Page8/persomorgan.html"><img class="morganHeader"
                                 src="header-accueil/morgan.png" alt=""></a></div>
                 </div>
                 <!-- line 3 grid-menus-logo-ysatis-florent -->
                 <div class="row justify-content-center">
-                    <div class="ysatisMenus"><a href="Page8/persoysatis.html"><audio id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="ysatisHeader"
+                    <div class="ysatisMenus"><a href="Page8/persoysatis.html"><img class="ysatisHeader"
                                 src="header-accueil/ysatis.png" alt=""></a></div>
-                    <div class="florentMenus"><a href="Page8/persoflorent.html"><audio id="v1" autobuffer="true">
-                                <source src='header-accueil/ananas.mp3' type='audio/mp3'></audio><img class="florentHeader"
+                    <div class="florentMenus"><a href="Page8/persoflorent.html"><img class="florentHeader"
                                 src="header-accueil/florent.png" alt=""></a></div>
                 </div>
                 <!-- line 4 grid-menus-logo -->
@@ -101,8 +97,31 @@
                 </div>
             </div><!-- end div menus -->
         </div><!-- end div container fluid -->
-        </div>
     </header>
+    <!----------- NAVBAR accueil mobile ----------->
+        <nav class="navbar d-block d-md-none navbar-default navbar-dark bg-dark">
+
+            <button class="navbar-toggler" type="button" data-toggle="dropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="../page8.html">WILD FOLIO</a>
+
+            <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+
+                 <a class="dropdown-item border-bottom border-top" href="../page8.html"><img class="rounded-circle navImg mr-3" src="Page8/icon/house.svg" alt="Generic placeholder image"><span class="couleurwild">ACCUEIL</span></a>
+
+                <a class="dropdown-item border-bottom" href="./persoanaele.html"><img class="rounded-circle navImg mr-3" src="Page8/images/anaele-rond.png" alt="Generic placeholder image"><span class="couleurwild">Salvatore Anaële</span>
+                <div class="media-body">
+                <h5 class="mt-0 mb-1"></h5>
+                </div></a>
+
+                <a class="dropdown-item border-bottom" href="./persoysatis.html"><img class="rounded-circle navImg mr-3" src="Page8/images/ysatis-rond.png" alt="Generic placeholder image"><span class="couleurwild">Place Ysatis</span></a>
+                <a class="dropdown-item border-bottom" href="./persomorgan.html"><img class="rounded-circle navImg mr-3" src="Page8/images/morgan-rond.png" alt="Generic placeholder image"><span class="couleurwild">Parhirin Morgan</span></a>
+                <a class="dropdown-item border-bottom" href="./persoeliott.html"><img class="rounded-circle navImg mr-3" src="Page8/images/eliott-rond.png" alt="Generic placeholder image"><span class="couleurwild">Raillere Eliott</span></a>
+                <a class="dropdown-item border-bottom" href="./persoflorent.html"><img class="rounded-circle navImg mr-3" src="Page8/images/florent-rond.png" alt="Generic placeholder image"><span class="couleurwild">Perticoz Florent</span></a>
+                <a class="dropdown-item" href="./persokevin.html"><img class="rounded-circle navImg mr-3" src="Page8/images/kevin-rond.png" alt="Generic placeholder image"><span class="couleurwild">Radlowski Kevin</span></a>
+              </div>
+            </nav>
 
     <!-- 1ère partie avec la présentation (titre + paragraphe)-->
 
@@ -113,47 +132,47 @@
             résultat de ce travail de 3 semaines, il s’agira de scroller, cliquer, passer la souris au-dessus des
             élements… Et ceci, sur les différents supports/résolutions possibles !</p>
     </section>
-
     <!-- 2ème partie avec galerie photos (modaux)-->
 
-    <section class="galllery-wip">
-        <!----WORK IN PROGRESS------>
-        <!---Disposition images--->
+ <section class="galllery-wip">
+     <!----WORK IN PROGRESS------>
+     <!---Disposition images--->
 
-        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 300 }'>
-            <div class="grid-item">
-                <img src="photos-wip/wip6.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <img src="photos-wip/img1.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <img src="photos-wip/wip1.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <img src="photos-wip/wip2.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <img src="photos-wip/wip3.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <img src="photos-wip/wip4.jpg" alt="">
-            </div>
-            <div class="grid-item">
-                <img src="photos-wip/wip5.jpg" alt="">
-            </div>
-        </div>
+     <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 300 }'>
+         <div class="grid-item">
+             <img src="photos-wip/wip6.jpg" alt="">
+         </div>
+         <div class="grid-item">
+             <img src="photos-wip/img1.jpg" alt="">
+         </div>
+         <div class="grid-item">
+             <img src="photos-wip/wip1.jpg" alt="">
+         </div>
+         <div class="grid-item">
+             <img src="photos-wip/wip2.jpg" alt="">
+         </div>
+         <div class="grid-item">
+             <img src="photos-wip/wip3.jpg" alt="">
+         </div>
+         <div class="grid-item">
+             <img src="photos-wip/wip4.jpg" alt="">
+         </div>
+         <div class="grid-item">
+             <img src="photos-wip/wip5.jpg" alt="">
+         </div>
+     </div>
 
-    </section>
+ </section>
 
-    <!-- Footer-->
-    <footer>
+ <!-- Footer-->
+ <footer>
 
-    </footer>
+</footer>
+
 
 
     <!-- Optional JavaScript -->
-    
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

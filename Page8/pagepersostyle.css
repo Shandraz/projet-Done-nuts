@@ -98,7 +98,7 @@ body {
     color: black;
 }
 
-.card-header {
+.back-title {
     background-color: #F4A443;
     line-height: normal;
     text-align: center;
@@ -130,16 +130,15 @@ body {
 .couleurwild{
    color:#ffffff;
 }
-.couleurwild:hover{
+.couleurwild:visited{
    color: black;
 }
 
 
-.dropdown-item:hover {
+.dropdown-item:hover, .dropdown-item:focus {
     background-color: rgba(244,164,67,1.0);
 
 }
-
 
 /* SECTION PERSO A DROITE */
 .img-plainpied {
@@ -164,10 +163,6 @@ body {
     margin-right:10%;
 }
 
-.description-list {
-    margin: auto;
-
-}
 
 
 .description-list, .media {
@@ -175,10 +170,17 @@ body {
     text-align: center;
 }
 
+@media (min-width:768px) {
+    .description-list {
+    margin: auto;
+    }
+}
+
 /*konamiCodePageMorgan*/
 .stitch{
   display: none !important;
   transition: 0.5s;
+
 }
 .stitch3{
 display:  flex !important;
